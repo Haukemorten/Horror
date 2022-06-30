@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 66
+  controlID: 263
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 67
+  controlID: 264
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 221}
   m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 68
+  controlID: 265
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 432, y: 271}
   m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 120
+  controlID: 271
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -446,23 +446,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 78fefeff7cfefeffa682ffff988effffb29effffba9fffffd0cbffff6efbffff743d00007a3d00008c3d00001c3e00002ae10000c4e10000
+      m_SelectedIDs: 426c0000
+      m_LastClickedID: 27714
+      m_ExpandedIDs: 2cc3ffff6efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Player
-        m_OriginalName: Player
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 57642
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -508,9 +508,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.0850887, y: -12.252631, z: 7.532149}
+    m_Target: {x: -33.61989, y: -15.844442, z: -42.37583}
     speed: 2
-    m_Value: {x: -5.0850887, y: -12.252631, z: 7.532149}
+    m_Value: {x: -33.61989, y: -15.844442, z: -42.37583}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -557,13 +557,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.35101607, y: 0.0867202, z: -0.032843895, w: 0.93173444}
+    m_Target: {x: 0.047879476, y: -0.93448025, z: 0.1371691, w: 0.32493415}
     speed: 2
-    m_Value: {x: 0.3524238, y: 0.086673416, z: -0.032974903, w: 0.9312346}
+    m_Value: {x: 0.048086535, y: -0.93401825, z: 0.137101, w: 0.32634476}
   m_Size:
-    m_Target: 32.82009
+    m_Target: 46.673473
     speed: 2
-    m_Value: 31.406786
+    m_Value: 44.663612
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -663,22 +663,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/HQ_ResidentialHouse/Textures/OwlPic
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/HQ_ResidentialHouse/Textures/OwlPic
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: G:\C# Uni\UnityStuff\Horror\HorrorGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 1034}
-    m_SelectedIDs: 90400000
-    m_LastClickedID: 16528
-    m_ExpandedIDs: 00000000b43e0000b63e0000b83e00008a400000aa40000000ca9a3b
+    scrollPos: {x: 0, y: 1418}
+    m_SelectedIDs: 5a680000
+    m_LastClickedID: 26714
+    m_ExpandedIDs: 000000003a6800003c6800003e680000406800005868000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -706,7 +706,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b43e0000b63e0000b83e0000ba3e0000
+    m_ExpandedIDs: 000000003a6800003c6800003e6800004068000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -733,7 +733,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000586000000c7100009270000048710000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
