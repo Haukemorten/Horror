@@ -15,11 +15,11 @@ G:/C# Uni/UnityStuff/Horror/HorrorGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52516
+60968
 Successfully changed project path to: G:/C# Uni/UnityStuff/Horror/HorrorGame
 G:/C# Uni/UnityStuff/Horror/HorrorGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path G:/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,75 +35,75 @@ Initialize mono
 Mono path[0] = 'G:/Unity/Editor/Data/Managed'
 Mono path[1] = 'G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'G:/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: G:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001923 seconds.
+Registered in 0.001385 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.604 seconds
+- Completed reload, in  0.496 seconds
 Domain Reload Profiling:
-	ReloadAssembly (604ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (496ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (462ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (373ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
+			SetupTypeCache (120ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (173ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (144ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002392 seconds.
+Registered in 0.001607 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image G:\C# Uni\UnityStuff\Horror\HorrorGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.847 seconds
+- Completed reload, in  0.842 seconds
 Domain Reload Profiling:
-	ReloadAssembly (848ms)
-		BeginReloadAssembly (150ms)
+	ReloadAssembly (843ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (647ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (659ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (222ms)
+			SetupTypeCache (226ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (242ms)
+			SetupLoadedEditorAssemblies (251ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (164ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (170ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -111,14 +111,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.6 MB.
-System memory in use after: 159.7 MB.
+Unloading 1550 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.2 MB.
+System memory in use after: 162.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1995.
-Total: 2.470700 ms (FindLiveObjects: 0.133400 ms CreateObjectMapping: 0.066900 ms MarkObjects: 2.133900 ms  DeleteObjects: 0.135700 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2009.
+Total: 2.113600 ms (FindLiveObjects: 0.110700 ms CreateObjectMapping: 0.044900 ms MarkObjects: 1.872400 ms  DeleteObjects: 0.084900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,25 +133,722 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(c2224e2cbbf434046909b126e4694093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(c2224e2cbbf434046909b126e4694093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4236c27b0b1d46913c0192dca1b94d') in 0.007021 seconds 
+  path: Assets/HorrorEnvironment_Hospital/Hospital_postProcessProfile.asset
+  artifactKey: Guid(4bc1c549ff8a81044a2dd9de3468aab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hospital_postProcessProfile.asset using Guid(4bc1c549ff8a81044a2dd9de3468aab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7757b930e991d68141b1a72a0903d26') in 0.023915 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c344eed07b0d506e9126a7ea68dc2eb1') in 0.005020 seconds 
+  Time since last request: 0.000147 seconds.
+  path: Assets/HorrorEnvironment_Hospital/HA_track.ogg
+  artifactKey: Guid(2505428e8ac094c4faa9ee750fa472cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/HA_track.ogg using Guid(2505428e8ac094c4faa9ee750fa472cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13145ae5d7589dcf462accb89abfc91c') in 0.140209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/HorrorEnvironment_Hospital/HA_piano.ogg
+  artifactKey: Guid(2116a32c2288f764eaff062445b93289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/HA_piano.ogg using Guid(2116a32c2288f764eaff062445b93289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59dc4a859640ea4d899afabc2cd7fcc') in 0.016086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/HorrorEnvironment_Hospital/HA_ambience.ogg
+  artifactKey: Guid(ae724d28944191c4090a55e59dedb9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/HA_ambience.ogg using Guid(ae724d28944191c4090a55e59dedb9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b037816b599b05328cfbc0db85ac11') in 0.015740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/House/New Material.mat
+  artifactKey: Guid(d4209372a34322740a3f00409729e2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/New Material.mat using Guid(d4209372a34322740a3f00409729e2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885d9055e98603a9304ab1769fe2583d') in 0.058063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/HorrorEnvironment_Hospital/HA_beat.ogg
+  artifactKey: Guid(77031e6f81dc453468ac8b11287f4cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/HA_beat.ogg using Guid(77031e6f81dc453468ac8b11287f4cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651d71be69d9f69d3310c76c7de399a6') in 0.015853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/HorrorEnvironment_Hospital/foot_sfx.ogg
+  artifactKey: Guid(9527c885a75d4064ea1001c242856889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/foot_sfx.ogg using Guid(9527c885a75d4064ea1001c242856889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802266197fb1d3a09b4d37703240f940') in 0.015754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.829056 seconds.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(e296992bd1565904c88752be29e5de26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(e296992bd1565904c88752be29e5de26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f22bde45cc416ad2320f19d86ec843') in 0.007254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.688657 seconds.
+  path: Assets/Scenes/Hospital.unity
+  artifactKey: Guid(e296992bd1565904c88752be29e5de26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hospital.unity using Guid(e296992bd1565904c88752be29e5de26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6aafa9e6a5430f0f096714825edb49d') in 0.005156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.018139 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE
+  artifactKey: Guid(33bd051a29dd63f41b84dbac13dd0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE using Guid(33bd051a29dd63f41b84dbac13dd0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82b48d2556e9c2e3a4ef755896f53e2') in 0.006629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030812 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/LightingData.asset
+  artifactKey: Guid(80c492cef7186384da4966166aed9bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/LightingData.asset using Guid(80c492cef7186384da4966166aed9bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is inconsistent because 238 files out of 1190 are missing.  Please use Generate Lighting to rebuild the lighting data.
+ -> (artifact id: '3a54edba3b2b3e478aca2e4b9b41fad3') in 0.403143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-17.exr
+  artifactKey: Guid(4f06a805eb27572469ffb89fc4a7dc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-17.exr using Guid(4f06a805eb27572469ffb89fc4a7dc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb3d5f3bd6635e836fac040bb1c8610') in 0.031195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-10.exr
+  artifactKey: Guid(2a93ed8236bdb5a4a9d1a21bc2115bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-10.exr using Guid(2a93ed8236bdb5a4a9d1a21bc2115bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e53002e0a83a17ebdc8f10c69cdf948') in 0.033248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-8.exr
+  artifactKey: Guid(4f0b84aa8ab760d4f8231ad457c12d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-8.exr using Guid(4f0b84aa8ab760d4f8231ad457c12d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa5643841b1f3248d14b54060e8b19c') in 0.020218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-4.exr
+  artifactKey: Guid(74badcdba5c2846478ab977de3b6b62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-4.exr using Guid(74badcdba5c2846478ab977de3b6b62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8660a993a76d2184b9ec36b4db3ca1e3') in 0.024063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-16.exr
+  artifactKey: Guid(baa25596ecb5cdf42b998fb7fe80b4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-16.exr using Guid(baa25596ecb5cdf42b998fb7fe80b4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4358889fa715f29db954d6e53659e4b6') in 0.023010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-12.exr
+  artifactKey: Guid(58df8a76d706fc1498bb5af416a63612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-12.exr using Guid(58df8a76d706fc1498bb5af416a63612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdf75c227da796532fdb660b62f7b6d') in 0.019890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-3.exr
+  artifactKey: Guid(faea9ba8d8f8f834fb0336b920176e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-3.exr using Guid(faea9ba8d8f8f834fb0336b920176e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5dda5c51fd761c49a674a4b73f325c0') in 0.021577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-1.exr
+  artifactKey: Guid(50730991161a6fa4fadd438f9ffbfba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-1.exr using Guid(50730991161a6fa4fadd438f9ffbfba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bd7c7202edf8f4764149ae57bbe073') in 0.026831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-7.exr
+  artifactKey: Guid(d5adff3ab8dc77c44bc9cbcaf5a97236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-7.exr using Guid(d5adff3ab8dc77c44bc9cbcaf5a97236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05720b191e71860e4a438e1d4df8649') in 0.037004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-18.exr
+  artifactKey: Guid(9ae8867b01965874abdc76f323ed2504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-18.exr using Guid(9ae8867b01965874abdc76f323ed2504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ba0deb5cff02696e66531c7854967a') in 0.019847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-6.exr
+  artifactKey: Guid(0534bcde55ec5794581182444c52542c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-6.exr using Guid(0534bcde55ec5794581182444c52542c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c31c30bfca31e12d749714bc84d4d0') in 0.019286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-15.exr
+  artifactKey: Guid(5c7ce760a61115244af62837fe4cc3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-15.exr using Guid(5c7ce760a61115244af62837fe4cc3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbee9222a5dfb52d711db45d03f32488') in 0.020262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-19.exr
+  artifactKey: Guid(88f17af470b3a8042b5e05e57c967f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-19.exr using Guid(88f17af470b3a8042b5e05e57c967f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22a7c1b9fa9fa27443154c9e76539c3') in 0.022977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-0.exr
+  artifactKey: Guid(2f95c896e20c7c543882e1b36c8eeb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-0.exr using Guid(2f95c896e20c7c543882e1b36c8eeb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa2f5cac1e4ec4d36c0d6e80cfb7867') in 0.020457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-14.exr
+  artifactKey: Guid(cebe15f628dc9a440b99eeb0489a4ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-14.exr using Guid(cebe15f628dc9a440b99eeb0489a4ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3ed300731596eb7fd47c68bed29b5f') in 0.025053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-11.exr
+  artifactKey: Guid(c96d0b0612a0e37469f8820a0d8c291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-11.exr using Guid(c96d0b0612a0e37469f8820a0d8c291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d1a9f04a4d2959d1492b6856e33511') in 0.019847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-5.exr
+  artifactKey: Guid(1ea7d4a084a1d0b4c92ee47ce6568d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-5.exr using Guid(1ea7d4a084a1d0b4c92ee47ce6568d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c134cf735db60f07451dac786ddf933d') in 0.022029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-13.exr
+  artifactKey: Guid(a9836ccb7749cc94c8a7fe7e1cd93baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-13.exr using Guid(a9836ccb7749cc94c8a7fe7e1cd93baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cba0ee2827f7cdbdc09ddff645fc33e') in 0.024887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-9.exr
+  artifactKey: Guid(8d4d532b103bc29439c7a1fe79972b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-9.exr using Guid(8d4d532b103bc29439c7a1fe79972b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978ff9815d9f17c8960c8af95e710057') in 0.019770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-2.exr
+  artifactKey: Guid(14659c50ed699b04fa45e64787348f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-2.exr using Guid(14659c50ed699b04fa45e64787348f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394178900f6eabb52dfb9000889f79b0') in 0.022441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212435 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Audio/foot_sfx.ogg
+  artifactKey: Guid(4946d2920b6969a47bbeff03dd7f8c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Audio/foot_sfx.ogg using Guid(4946d2920b6969a47bbeff03dd7f8c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea6baf1be5b06f3477b9a8f73d03182') in 0.013873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Audio/HA_piano.ogg
+  artifactKey: Guid(b57fd343dcbc66c448700d297e6a4cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Audio/HA_piano.ogg using Guid(b57fd343dcbc66c448700d297e6a4cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6dabaf65194b448eef8e30079e9704') in 0.015549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Audio/HA_beat.ogg
+  artifactKey: Guid(984438ac7f3caa04a97524aa5351e2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Audio/HA_beat.ogg using Guid(984438ac7f3caa04a97524aa5351e2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd756f3ef2eda2062fbb7968848d0fdeb') in 0.017664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Audio/HA_ambience.ogg
+  artifactKey: Guid(3eaae1750fa28974581bcef3e55b0052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Audio/HA_ambience.ogg using Guid(3eaae1750fa28974581bcef3e55b0052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d279a146880fb025c8aaba2a607f99') in 0.016126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Audio/HA_track.ogg
+  artifactKey: Guid(83c3762e941e4b4468291b12083aba60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Audio/HA_track.ogg using Guid(83c3762e941e4b4468291b12083aba60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c47caa9cd8009b5720b7025823012f') in 0.019789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.654613 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/glassPlane.prefab
+  artifactKey: Guid(b24b28801ab01664a96959b9435386aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/glassPlane.prefab using Guid(b24b28801ab01664a96959b9435386aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6eae6a53c6d29cc748c19a88703b439') in 0.025122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/PLAYER.prefab
+  artifactKey: Guid(cb02e926568a7224ab8485770de84356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/PLAYER.prefab using Guid(cb02e926568a7224ab8485770de84356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020dea4750b3f855e848d7b6a04be2ff') in 0.008977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.380639 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/Abandoned Hospital_LUT_A.psd
+  artifactKey: Guid(d0d0d3ca920a39c40bed4e206098637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/Abandoned Hospital_LUT_A.psd using Guid(d0d0d3ca920a39c40bed4e206098637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0665d6fc58221e22b8854c19e01def6d') in 0.017408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/doors_B_C.psd
+  artifactKey: Guid(eee90bf851b6b5e4a80d79ea755512b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/doors_B_C.psd using Guid(eee90bf851b6b5e4a80d79ea755512b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421781b65d750443960de81125b7b258') in 0.021250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/floor_rubber_MR.psd
+  artifactKey: Guid(d0e11cc57aa1957478274fad18c936f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/floor_rubber_MR.psd using Guid(d0e11cc57aa1957478274fad18c936f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474e1df24b77b22626a6a23e09a18c0f') in 0.017835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/elevator_MR.psd
+  artifactKey: Guid(cbe6d9130def57042a0e2966304c8cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/elevator_MR.psd using Guid(cbe6d9130def57042a0e2966304c8cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf889129e381a54fcb4180cb0a80a6c7') in 0.022328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/doors_B_N.psd
+  artifactKey: Guid(5ee3a8e4f92db4442833ef3b50443b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/doors_B_N.psd using Guid(5ee3a8e4f92db4442833ef3b50443b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfdf6f4d24e0b6a98a7aa143d9b7b92') in 0.019870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/doors_A_N.psd
+  artifactKey: Guid(5711aed98024e8749b445e4c9f0fd95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/doors_A_N.psd using Guid(5711aed98024e8749b445e4c9f0fd95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e4aee80de812e90547fbc25df61be9') in 0.014828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/elevator_N.psd
+  artifactKey: Guid(07ea3bf6b67ccfb46af90fc8b3dafc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/elevator_N.psd using Guid(07ea3bf6b67ccfb46af90fc8b3dafc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6196115c2d924d2266577919778e99') in 0.018403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/elevator_C.psd
+  artifactKey: Guid(3bc55ca002c689f46a3254ecb911b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/elevator_C.psd using Guid(3bc55ca002c689f46a3254ecb911b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa94e21d39d510f477f264dbef428d4e') in 0.019135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/doors_C_N.psd
+  artifactKey: Guid(f57e84b1de65956449de96962054d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/doors_C_N.psd using Guid(f57e84b1de65956449de96962054d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b9a855b10117191accc36d88cdae73') in 0.018064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/doors_C_C.psd
+  artifactKey: Guid(bddd9be04dcb1a9449ae484f3bd4e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/doors_C_C.psd using Guid(bddd9be04dcb1a9449ae484f3bd4e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52831262e31ab3abde143c88c8b90dd9') in 0.017880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/CCR.png
+  artifactKey: Guid(04b230915db4ada43b1bd0dfa8a3eeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/CCR.png using Guid(04b230915db4ada43b1bd0dfa8a3eeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb0649140c97842e7c80e9b68ecd377') in 0.021790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/ceiling_A.psd
+  artifactKey: Guid(35ad54715ee996a44af2c1304cb40c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/ceiling_A.psd using Guid(35ad54715ee996a44af2c1304cb40c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9063acad2507c0c74d720b7834a3c3') in 0.018406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/Abandoned Hospital_LUT_B.psd
+  artifactKey: Guid(9d81a8f2094c8984bb813c674bacae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/Abandoned Hospital_LUT_B.psd using Guid(9d81a8f2094c8984bb813c674bacae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91da39666d814362579fef715af2e477') in 0.014727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/doors_D_C.psd
+  artifactKey: Guid(eca21daa99ee0174cbfcee9dc70e025f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/doors_D_C.psd using Guid(eca21daa99ee0174cbfcee9dc70e025f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e6b2872d1f76d7631424662fd2a888') in 0.018314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/floor_rubber_N.psd
+  artifactKey: Guid(eb153efa112edd24dad6f84e3f51a94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/floor_rubber_N.psd using Guid(eb153efa112edd24dad6f84e3f51a94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471fc7a6dbf4c7e4a64061e62ee28acd') in 0.016063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/edgesAndBars_MR.psd
+  artifactKey: Guid(8b1ca05d47f528b4893a0c25a37d5b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/edgesAndBars_MR.psd using Guid(8b1ca05d47f528b4893a0c25a37d5b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0151b52755fa8ee8d3fc9aed6178cb86') in 0.019746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/floor_rubber_C.psd
+  artifactKey: Guid(4d103afada402ae489052f295f1c3fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/floor_rubber_C.psd using Guid(4d103afada402ae489052f295f1c3fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52469f4f0f8fc0d30c26fad9e4fdca0') in 0.021500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/doors_D_N.psd
+  artifactKey: Guid(5ac6b227a59d89740b20469a71d4736e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/doors_D_N.psd using Guid(5ac6b227a59d89740b20469a71d4736e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28165ed917858bade766711053da625') in 0.026321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/edgesAndBars_C.psd
+  artifactKey: Guid(edfac2036ed942f4485fc988e5198e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/edgesAndBars_C.psd using Guid(edfac2036ed942f4485fc988e5198e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36db7ddb2ed7841a09f4b52cc7c82e64') in 0.028024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/edgesAndBars_N.psd
+  artifactKey: Guid(ccf6ea26e9fad834899ac0b7171429f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/edgesAndBars_N.psd using Guid(ccf6ea26e9fad834899ac0b7171429f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8c4c00c79c8d7f396d55a274552a49') in 0.018521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/doors_A_C.psd
+  artifactKey: Guid(817a3b601ced4c14f95157dcdac4cb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/doors_A_C.psd using Guid(817a3b601ced4c14f95157dcdac4cb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45df4159309676ee8650dc6db2584ff0') in 0.022179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.031708 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/floor_tiles_A.psd
+  artifactKey: Guid(d9c016a14a0b32e4ab5d597da5011501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/floor_tiles_A.psd using Guid(d9c016a14a0b32e4ab5d597da5011501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d30389f2fed154ea25577d9bff7b38b') in 0.022145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/glass_fake_N.psd
+  artifactKey: Guid(cab02372de79f52448f7573f42754127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/glass_fake_N.psd using Guid(cab02372de79f52448f7573f42754127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44573d8557fbd3c5dafe0be5522f84e9') in 0.018943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/glass_fake_C.psd
+  artifactKey: Guid(aecec4aef5e484c40a8294bdfd4b57f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/glass_fake_C.psd using Guid(aecec4aef5e484c40a8294bdfd4b57f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837f844680f9bd0d0411c58d7b10b710') in 0.016320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/floor_tiles_A_MR.psd
+  artifactKey: Guid(9627185190b800746983ea8931f5062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/floor_tiles_A_MR.psd using Guid(9627185190b800746983ea8931f5062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e464c76e0ee0d0f74b5a319ae85f7e5f') in 0.020440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/floor_tiles_A_N 1.psd
+  artifactKey: Guid(7a656683d296aa54eab22925888853ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/floor_tiles_A_N 1.psd using Guid(7a656683d296aa54eab22925888853ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4514bf22012ad41ba1e1d6a43e9d62') in 0.020233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.358537 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/glass_fakeB_C.psd
+  artifactKey: Guid(4ff3f8514bc9afb48912b5bd08e784cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/glass_fakeB_C.psd using Guid(4ff3f8514bc9afb48912b5bd08e784cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7814b7a070bc08b354d01c2ea200b57c') in 0.019435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/glass_refraction_N.psd
+  artifactKey: Guid(2768c6a86fb3b3d4aa1ca6d2ffd4a9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/glass_refraction_N.psd using Guid(2768c6a86fb3b3d4aa1ca6d2ffd4a9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628f26fb2e378091cb85351afbb48f25') in 0.017293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/hospital_lamps_MR.psd
+  artifactKey: Guid(cbd0b9e275c41fb49957b05605a218ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/hospital_lamps_MR.psd using Guid(cbd0b9e275c41fb49957b05605a218ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b508953a4f20a488b6d9fcb8f3c059') in 0.016896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/hospital_lamps_C.psd
+  artifactKey: Guid(877d0dcea032acc4085202d76edc80e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/hospital_lamps_C.psd using Guid(877d0dcea032acc4085202d76edc80e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202d013f836cb609e0d1c71237c84adc') in 0.013544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/hospital_lamps_N.psd
+  artifactKey: Guid(5bc8ce34ecfc81c4da9711232928f72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/hospital_lamps_N.psd using Guid(5bc8ce34ecfc81c4da9711232928f72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217ad0b8ec7b55019aa660e7e8291e44') in 0.016293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.080503 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/hospital_mattressA_C.psd
+  artifactKey: Guid(974fa2980deb41c429a019c06a910894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/hospital_mattressA_C.psd using Guid(974fa2980deb41c429a019c06a910894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a2cf961d7e5c193282ebbda0ae6dd1') in 0.017928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/hospital_reflection.psd
+  artifactKey: Guid(012bc51f023bd8a4a99a1e449e8ef3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/hospital_reflection.psd using Guid(012bc51f023bd8a4a99a1e449e8ef3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd627b2340c73bea1abe617b09d26f45a') in 0.026153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/hospital_mattressA_N.psd
+  artifactKey: Guid(2a532a3367197e54195084020acb83b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/hospital_mattressA_N.psd using Guid(2a532a3367197e54195084020acb83b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953505686bef83184d7bcc4e20c02d22') in 0.014327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/hospital_reflection2.psd
+  artifactKey: Guid(024ff0a22cc82f646bb7699073f2af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/hospital_reflection2.psd using Guid(024ff0a22cc82f646bb7699073f2af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c093187f76363c77f256fd8a849b1154') in 0.016873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/hospital_rubbish_C.psd
+  artifactKey: Guid(14492f8ff13a60240a5b5340e4ce554a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/hospital_rubbish_C.psd using Guid(14492f8ff13a60240a5b5340e4ce554a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f71789cf4b020c0352323c078e79bd5') in 0.014478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.541068 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/hospital_rubbish_N.psd
+  artifactKey: Guid(f74f7c37bc7c14342b2527d1185f5d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/hospital_rubbish_N.psd using Guid(f74f7c37bc7c14342b2527d1185f5d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70af70817cbb492109924d6ec678a9b') in 0.016109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/hospitalFurniture_C.psd
+  artifactKey: Guid(ea0fefefb208b9444966285a0cf1b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/hospitalFurniture_C.psd using Guid(ea0fefefb208b9444966285a0cf1b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fc25f16b810ecaebdf9e0276e5e62d') in 0.023998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/medicalStuff_N.psd
+  artifactKey: Guid(35d1407ba25cf1e4abed04088907fd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/medicalStuff_N.psd using Guid(35d1407ba25cf1e4abed04088907fd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cbf755f284705c489f73f2f73f8b75') in 0.032727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/medicines_C.psd
+  artifactKey: Guid(83112686d22653349839cb8d4313a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/medicines_C.psd using Guid(83112686d22653349839cb8d4313a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478300b43b28dcac67ae3fc2c75cfb2c') in 0.015525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/picture_B.psd
+  artifactKey: Guid(ec51ba0a79f9d7a488775f523ac4642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/picture_B.psd using Guid(ec51ba0a79f9d7a488775f523ac4642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bf2d3c6fe538eaa03ffc3e80bf7ac2') in 0.012560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/picture_A.psd
+  artifactKey: Guid(1e059f8566f7c7e4c8e51cf9aa265c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/picture_A.psd using Guid(1e059f8566f7c7e4c8e51cf9aa265c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caea636d686763ac70c8e78bf99e4df9') in 0.012978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/hospitalFurniture_MR.psd
+  artifactKey: Guid(77a679014481b734e94bde18c84205c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/hospitalFurniture_MR.psd using Guid(77a679014481b734e94bde18c84205c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7351096d86a7629dd010412ff074a63e') in 0.015201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/medicalStuff_MR.psd
+  artifactKey: Guid(e4d5d6e1b085ad8448375362b583155b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/medicalStuff_MR.psd using Guid(e4d5d6e1b085ad8448375362b583155b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093024b95f4411c49b861ffad3959326') in 0.017629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/medicalStuff_C.psd
+  artifactKey: Guid(9466a7d6ecf6e224f90e7263a7a692dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/medicalStuff_C.psd using Guid(9466a7d6ecf6e224f90e7263a7a692dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fdf3dfe0f4aa279694364082d9dd7f') in 0.030889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/hospitalFurniture_N.psd
+  artifactKey: Guid(828657917124ebd4993bf3e89fec0d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/hospitalFurniture_N.psd using Guid(828657917124ebd4993bf3e89fec0d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aebd090a82768c172685a0878b2bbdb') in 0.020502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.244838 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/picture_C.psd
+  artifactKey: Guid(f9973ac2554ce6b458600a04238961da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/picture_C.psd using Guid(f9973ac2554ce6b458600a04238961da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5501994e06d281495594b95abc2f9be6') in 0.013124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/plasterWall_a_C.psd
+  artifactKey: Guid(750568935a7fbbc4eaea37dbf7d2367d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/plasterWall_a_C.psd using Guid(750568935a7fbbc4eaea37dbf7d2367d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3b22c627d99e26f0ad1890aa62ca72') in 0.018955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/pipesAndHeat_MR.psd
+  artifactKey: Guid(99136bbff91c45b4cb55118a16f77743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/pipesAndHeat_MR.psd using Guid(99136bbff91c45b4cb55118a16f77743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edefc04d877164fe27b707fea483b7d') in 0.019110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/pipesAndHeat_C.psd
+  artifactKey: Guid(a5f0d23647d723c4880b07e54d020fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/pipesAndHeat_C.psd using Guid(a5f0d23647d723c4880b07e54d020fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17f321f1972753b597643fde8007c4a') in 0.018366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/shower_curtain_N.psd
+  artifactKey: Guid(4fb8b6301dab52343ba446cddeb5a0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/shower_curtain_N.psd using Guid(4fb8b6301dab52343ba446cddeb5a0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6387895fd20468c988069d3fcef43f') in 0.017486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/tiles_A2_N.psd
+  artifactKey: Guid(f2d7f6b51ab4d764fb21744f66554660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/tiles_A2_N.psd using Guid(f2d7f6b51ab4d764fb21744f66554660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66a2b29bb5bfae3794ebc3f6840508b') in 0.016888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/tiles_A_MR.psd
+  artifactKey: Guid(c13b628e122d7d94e9f4e2ad9b9ab169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/tiles_A_MR.psd using Guid(c13b628e122d7d94e9f4e2ad9b9ab169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196e9911a87cb4964c5ae8c2c779512a') in 0.015424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/pipesAndHeat_N.psd
+  artifactKey: Guid(251fc309e0ac0a4439de79fa9b678464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/pipesAndHeat_N.psd using Guid(251fc309e0ac0a4439de79fa9b678464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2770346925c827140717fbd74a2f6513') in 0.016642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/tiles_A2_MR.psd
+  artifactKey: Guid(dfa8c8678a61d2047ad9f689a9cd27a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/tiles_A2_MR.psd using Guid(dfa8c8678a61d2047ad9f689a9cd27a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd10b28b68ba97f4ebdfa49325838f3') in 0.017547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/shower_curtain_MR.psd
+  artifactKey: Guid(6118207b5b443064da5f14134c43d13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/shower_curtain_MR.psd using Guid(6118207b5b443064da5f14134c43d13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1a9e852d0d7b66ae91c16e61b6c9ff') in 0.015094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/tiles_A_N.psd
+  artifactKey: Guid(7655a21de3f20a1459f04717ea106977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/tiles_A_N.psd using Guid(7655a21de3f20a1459f04717ea106977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b48a28a2d7a66272b7a3a5fc4fbc36') in 0.017050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/plasterWall_a_N.psd
+  artifactKey: Guid(87c95d3208c541e41b7a1284caa8379c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/plasterWall_a_N.psd using Guid(87c95d3208c541e41b7a1284caa8379c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6003f4198bf821ac5641841d2be6c4') in 0.018239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/shower_curtain_C.psd
+  artifactKey: Guid(4866b0c16b00b7a458093942df5c0157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/shower_curtain_C.psd using Guid(4866b0c16b00b7a458093942df5c0157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9495d4c1ab2bf9b9ab68292fc5265b') in 0.015732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/tiles_A2_C.psd
+  artifactKey: Guid(cf1fe4e5064bf774a9211d8bbc9e90eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/tiles_A2_C.psd using Guid(cf1fe4e5064bf774a9211d8bbc9e90eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8820b1025e04ef0b7f794442b9451a') in 0.017683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Textures/tiles_A_C.psd
+  artifactKey: Guid(f709cac90e03ebf46a03638d57d69ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Textures/tiles_A_C.psd using Guid(f709cac90e03ebf46a03638d57d69ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09cede7cca96c7dcc893a5afb17f6b5') in 0.017804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.916538 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-20.exr
+  artifactKey: Guid(df57c17a8ca71ec46985a261a89747c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-20.exr using Guid(df57c17a8ca71ec46985a261a89747c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cdf4f2563cfbc8f527e5ac96b8ae19') in 0.017418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-21.exr
+  artifactKey: Guid(5e001c8d2443b5e44b0a31f6ddf6ba3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-21.exr using Guid(5e001c8d2443b5e44b0a31f6ddf6ba3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6916391299811c4e2e5b7931e718bf') in 0.019860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-22.exr
+  artifactKey: Guid(89312667fe4a24e479c24a265a6f1b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/ReflectionProbe-22.exr using Guid(89312667fe4a24e479c24a265a6f1b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5ba75641021d8a2b4a0afd84fc1048') in 0.019044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.168240 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Meshes/hospital_decals.fbx
+  artifactKey: Guid(8bf0bec1c46c9b542adc49bb9705906b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Meshes/hospital_decals.fbx using Guid(8bf0bec1c46c9b542adc49bb9705906b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f36f0723bed528efa9d2c8a0feb369') in 0.072438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Meshes/hospital_furniture_COLLIDERS.fbx
+  artifactKey: Guid(d5b6cf5b77eeba24798fb5e95d32882a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Meshes/hospital_furniture_COLLIDERS.fbx using Guid(d5b6cf5b77eeba24798fb5e95d32882a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01936a3f603600ab2df750f99106825e') in 0.083731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Meshes/hospital_segments_COLLIDERS.fbx
+  artifactKey: Guid(2cd235bc655a48545b2c61baea3b2c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Meshes/hospital_segments_COLLIDERS.fbx using Guid(2cd235bc655a48545b2c61baea3b2c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdc784275faa45ce4eca4299ff1c205') in 0.182862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Meshes/operating_furniture.fbx
+  artifactKey: Guid(e792711cc9c2d40449dc34163a5126dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Meshes/operating_furniture.fbx using Guid(e792711cc9c2d40449dc34163a5126dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a884fd26c05bb0a36f38f5a5b4dd9a1e') in 0.089439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Meshes/hospital_furniture.fbx
+  artifactKey: Guid(83b684afbafb1cf45af22ab74134ca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Meshes/hospital_furniture.fbx using Guid(83b684afbafb1cf45af22ab74134ca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0de7aa18dac1a3b7ad3f48bad02501') in 0.198710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Meshes/medicines.fbx
+  artifactKey: Guid(e4ee9f13e82203242ba94df80c497d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Meshes/medicines.fbx using Guid(e4ee9f13e82203242ba94df80c497d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb565d323ff5b3e804db8262ce2eab0') in 0.158275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Meshes/hospital_lamps.fbx
+  artifactKey: Guid(70932ca34733610408cf0799e52c67f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Meshes/hospital_lamps.fbx using Guid(70932ca34733610408cf0799e52c67f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c8ea5f1db3634e5e3578de2de23dd1') in 0.041842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Meshes/hospital_heaterAndPipes.fbx
+  artifactKey: Guid(ae9b4d4270b906d4590fee9f88c725ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Meshes/hospital_heaterAndPipes.fbx using Guid(ae9b4d4270b906d4590fee9f88c725ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb592dfed29c5795a482e708cebe12ea') in 0.054502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Meshes/hospital_segments.fbx
+  artifactKey: Guid(1990cebbf1dc18b44a899ff5aa51c417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Meshes/hospital_segments.fbx using Guid(1990cebbf1dc18b44a899ff5aa51c417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f173ef9dad4fe2a32ff5c32ed0c642d') in 0.433833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.620783 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE.unity
+  artifactKey: Guid(c76c19567bbf5b9458ab9886939993a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE.unity using Guid(c76c19567bbf5b9458ab9886939993a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2b1f85fb530ae4a4cf7a33d883bbaf') in 0.007223 seconds 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Registering precompiled user dll's ...
+Registered in 0.001334 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\C# Uni\UnityStuff\Horror\HorrorGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.5 MB.
-System memory in use after: 127.6 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Domain Reload Profiling:
+	ReloadAssembly (777ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (624ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.1 MB.
+System memory in use after: 164.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1995.
-Total: 2.156100 ms (FindLiveObjects: 0.125600 ms CreateObjectMapping: 0.053400 ms MarkObjects: 1.929100 ms  DeleteObjects: 0.047400 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2066.
+Total: 2.136800 ms (FindLiveObjects: 0.118800 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.915300 ms  DeleteObjects: 0.055800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
