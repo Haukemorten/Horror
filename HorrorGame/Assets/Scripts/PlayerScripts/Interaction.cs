@@ -13,6 +13,10 @@ public class Interaction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Physics.Raycast(transform.position, transform.forward);
+        Ray ray = new Ray (transform .position, transform.forward);
+        RaycastHit hit;
+        bool hitsmth = Physics.Raycast(ray ,out hit ,3);
+        Debug.Log(hit.transform.name);
     }
 }
+    
