@@ -1,0 +1,263 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'de' Physical Memory: 32591 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+G:\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/C# Uni/UnityStuff/Horror/HorrorGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58789
+Successfully changed project path to: G:/C# Uni/UnityStuff/Horror/HorrorGame
+G:/C# Uni/UnityStuff/Horror/HorrorGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path G:/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/C# Uni/UnityStuff/Horror/HorrorGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'G:/Unity/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'G:/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001280 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.505 seconds
+Domain Reload Profiling:
+	ReloadAssembly (505ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (384ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (150ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001676 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\C# Uni\UnityStuff\Horror\HorrorGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Domain Reload Profiling:
+	ReloadAssembly (870ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.2 MB.
+System memory in use after: 164.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2073.
+Total: 2.301800 ms (FindLiveObjects: 0.116300 ms CreateObjectMapping: 0.051700 ms MarkObjects: 2.035400 ms  DeleteObjects: 0.097700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Hospital.unity
+  artifactKey: Guid(e296992bd1565904c88752be29e5de26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hospital.unity using Guid(e296992bd1565904c88752be29e5de26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5858fcdba7981cd0bb45a3792d96d7') in 0.006994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.120231 seconds.
+  path: Assets/HQ_ResidentialHouse/Objects/Whiteboard/Brush.FBX
+  artifactKey: Guid(63139aceebc4b2c48b2354a5b75c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/Objects/Whiteboard/Brush.FBX using Guid(63139aceebc4b2c48b2354a5b75c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed05ae680c343e8a22485c73344318e6') in 0.228859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/HQ_ResidentialHouse/Objects/Kitchenware/CupB.FBX
+  artifactKey: Guid(8a1468a094a233b43a4616d34454efbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/Objects/Kitchenware/CupB.FBX using Guid(8a1468a094a233b43a4616d34454efbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa3a1570cd29bab9b23be6981a24fee') in 0.105488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/HQ_ResidentialHouse/Objects/KitchenSet/CookerHood.FBX
+  artifactKey: Guid(d2db6cad67a94af419a4b8c8d1edf715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/Objects/KitchenSet/CookerHood.FBX using Guid(d2db6cad67a94af419a4b8c8d1edf715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff394ea293bbe12925d01446a023cff4') in 0.132321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/HQ_ResidentialHouse/Objects/Kitchenware/CupE.FBX
+  artifactKey: Guid(d09d367ec39da7f43a1ddaf4b92994dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/Objects/Kitchenware/CupE.FBX using Guid(d09d367ec39da7f43a1ddaf4b92994dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a32d9a5d859066d0819440e9109bda') in 0.056038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/HQ_ResidentialHouse/Objects/Kitchenware/CupA.FBX
+  artifactKey: Guid(a5169e12bc2268048ac55560bec50517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/Objects/Kitchenware/CupA.FBX using Guid(a5169e12bc2268048ac55560bec50517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368a06be6617e323862f436acd6eec7e') in 0.049383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/HQ_ResidentialHouse/Objects/Kitchenware/CupD.FBX
+  artifactKey: Guid(a4bd905127f9dba4688d2baedcf0d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/Objects/Kitchenware/CupD.FBX using Guid(a4bd905127f9dba4688d2baedcf0d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0432725df7bf9cc21a6d98ef46e58a87') in 0.044707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/HQ_ResidentialHouse/Objects/Kitchenware/CuttingBoard_stand.FBX
+  artifactKey: Guid(f4c8adc16d0dac44f8821e17871164de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/Objects/Kitchenware/CuttingBoard_stand.FBX using Guid(f4c8adc16d0dac44f8821e17871164de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2097b5f227f055036e11394b94d80e') in 0.037026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/HQ_ResidentialHouse/Objects/Kitchenware/CuttingBoard.FBX
+  artifactKey: Guid(ffb0bb10124908745a664e8e0e615b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/Objects/Kitchenware/CuttingBoard.FBX using Guid(ffb0bb10124908745a664e8e0e615b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d177423d64ac7e374e4a660f5b909c') in 0.030638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/HQ_ResidentialHouse/Objects/Deskware/Calculator.FBX
+  artifactKey: Guid(16cfd4369431f6d41afd668be02d4afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/Objects/Deskware/Calculator.FBX using Guid(16cfd4369431f6d41afd668be02d4afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05d2f21b515f7967a586454f21a4dd1') in 0.113077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/HQ_ResidentialHouse/Objects/Kitchenware/CupC.FBX
+  artifactKey: Guid(8b03eb39994af454b87ea0b34adda25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/Objects/Kitchenware/CupC.FBX using Guid(8b03eb39994af454b87ea0b34adda25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8299abe168e27cbec1e56d3d5f45c2') in 0.039792 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002494 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\C# Uni\UnityStuff\Horror\HorrorGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.877 seconds
+Domain Reload Profiling:
+	ReloadAssembly (877ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (702ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1581 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.1 MB.
+System memory in use after: 165.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2086.
+Total: 2.458800 ms (FindLiveObjects: 0.157600 ms CreateObjectMapping: 0.083500 ms MarkObjects: 2.144500 ms  DeleteObjects: 0.072500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 428.784340 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Scripts
+  artifactKey: Guid(c28f34d9db7cb0142818509896383752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Scripts using Guid(c28f34d9db7cb0142818509896383752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91b340d7a8a3c11badf823b9d47318f') in 0.008676 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
