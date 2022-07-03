@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float MovementSpeed;
     [SerializeField] float WalkSpeed;
     [SerializeField] float SprintSpeed;
+    [SerializeField] float Stamina;
+    bool exhausted=false;
 
     public MovementState State;
 
@@ -217,5 +219,12 @@ public class PlayerMovement : MonoBehaviour
 
 
     }
+    private void StaminaDrain() 
+    {
+        while (Input.GetKeyDown(SprintKey)&&!exhausted) 
+        {
+           
+        }
+    } 
 
 }
