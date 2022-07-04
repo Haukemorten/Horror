@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,10 +118,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
+  m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 32212
+  controlID: 18698
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,10 +143,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
+  m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 32213
+  controlID: 18699
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 675
-  m_MinSize: {x: 679, y: 221}
-  m_MaxSize: {x: 12004, y: 4021}
+  m_MinSize: {x: 678, y: 221}
+  m_MaxSize: {x: 12003, y: 4021}
   vertical: 0
-  controlID: 32214
+  controlID: 18700
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 432, y: 271}
   m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 32220
+  controlID: 18679
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -446,10 +446,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: e8d1fcffe623fdff3890fdff7692fdff1896fdff62c6fdff76cdfdffdadafdff844affff904cffffc64dffff7485ffff929fffffaaddffff6ee5ffff66fbffff0c4000006c410000d84b0000485600004058000080580000f85900007ea40000d8ef0000aaf100003ef2000080f20000d6f200000cf30000d8500100485b0100405d01000a6e01007e6e01001e6f010002700100
+      scrollPos: {x: 0, y: 583}
+      m_SelectedIDs: 968dffff
+      m_LastClickedID: -29290
+      m_ExpandedIDs: d246feff364afeff5c91ffff0ecaffff66fbffff383e000090420000e8420000ec780000d08100005c8300005485000072a8000086a900003aaa000056aa0000b2ab0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -509,9 +509,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.2669, y: 4.0352206, z: 6.8448896}
+    m_Target: {x: 0.69737077, y: 2.7517583, z: 19.053066}
     speed: 2
-    m_Value: {x: 1.2669, y: 4.0352206, z: 6.8448896}
+    m_Value: {x: 0.69737077, y: 2.7517583, z: 19.053066}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -558,20 +558,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.00738096, y: 0.97973907, z: -0.0352241, w: -0.1975597}
+    m_Target: {x: 0.005229418, y: 0.99393237, z: -0.098709755, w: 0.051612828}
     speed: 2
-    m_Value: {x: -0.007380174, y: 0.9796344, z: -0.035220332, w: -0.1975386}
+    m_Value: {x: 0.0052294177, y: 0.99393237, z: -0.09870975, w: 0.051612828}
   m_Size:
-    m_Target: 0.54300404
+    m_Target: 1.821144
     speed: 2
-    m_Value: 0.54300404
+    m_Value: 1.821144
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 2
-    m_SpeedNormalized: 1
+    m_Speed: 1.3403306
+    m_SpeedNormalized: 0.6700003
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -683,7 +683,7 @@ MonoBehaviour:
     height: 251
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: lamp
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -695,22 +695,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/HorrorEnvironment_Hospital/Scripts
+    - Assets/HorrorEnvironment_Hospital/Prefabs/Elevator
     m_Globs: []
-    m_OriginalText: 
+    m_OriginalText: lamp
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/HorrorEnvironment_Hospital/Scripts
+  - Assets/HorrorEnvironment_Hospital/Prefabs/Elevator
   m_LastFoldersGridSize: -1
   m_LastProjectPath: G:\C# Uni\UnityStuff\Horror\HorrorGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 297}
-    m_SelectedIDs: a04b0000
-    m_LastClickedID: 19360
-    m_ExpandedIDs: 00000000b6430000b8430000bc430000c0430000c2430000c8430000924b00009a4b00009c4b00009e4b0000a04b000000ca9a3b
+    scrollPos: {x: 0, y: 349}
+    m_SelectedIDs: b8ae0000
+    m_LastClickedID: 44728
+    m_ExpandedIDs: 00000000b0470000b2470000b4470000b6470000b8470000ba470000be470000c04700003c48000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -738,7 +738,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b6430000b8430000bc430000c0430000c2430000c8430000924b00009a4b00009c4b00009e4b0000a04b000000ca9a3b
+    m_ExpandedIDs: 00000000b0470000b2470000b4470000b6470000b8470000ba470000be470000c04700003c48000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
