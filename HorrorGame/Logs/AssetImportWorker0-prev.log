@@ -1,0 +1,659 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'de' Physical Memory: 32591 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+G:\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/C# Uni/UnityStuff/Horror/HorrorGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55577
+Successfully changed project path to: G:/C# Uni/UnityStuff/Horror/HorrorGame
+G:/C# Uni/UnityStuff/Horror/HorrorGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path G:/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/C# Uni/UnityStuff/Horror/HorrorGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'G:/Unity/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'G:/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001400 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.521 seconds
+Domain Reload Profiling:
+	ReloadAssembly (521ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (397ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (152ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001706 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\C# Uni\UnityStuff\Horror\HorrorGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (857ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (668ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.6 MB.
+System memory in use after: 164.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2075.
+Total: 2.860300 ms (FindLiveObjects: 0.118200 ms CreateObjectMapping: 0.050900 ms MarkObjects: 2.547400 ms  DeleteObjects: 0.142600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_Modules_Showcase/ReflectionProbe-1.exr
+  artifactKey: Guid(3c04151a4d4913d489c36ffdeb0a1659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_Modules_Showcase/ReflectionProbe-1.exr using Guid(3c04151a4d4913d489c36ffdeb0a1659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0393f684266f87cb1b318ee266fa2f4e') in 0.097901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-1.exr
+  artifactKey: Guid(910c6b8fe261ca440824ac1659b21bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-1.exr using Guid(910c6b8fe261ca440824ac1659b21bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8f1475719488b02ec219743f4241e6') in 0.032345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-6.mat
+  artifactKey: Guid(5d0c7c318f3b14a40b74240c3df51ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-6.mat using Guid(5d0c7c318f3b14a40b74240c3df51ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cd064adf68fa9233c49ba850a7d010') in 0.042318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-4.mat
+  artifactKey: Guid(8c173998532ea264ba1342c13fac3a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-4.mat using Guid(8c173998532ea264ba1342c13fac3a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5046633495f0591b99a033b04b65701f') in 0.015708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-10.mat
+  artifactKey: Guid(1e30d1e4c4e5585429024f2ba010503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-10.mat using Guid(1e30d1e4c4e5585429024f2ba010503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4caa554ea0282db7b0db052bdd2dff0e') in 0.030468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-7.exr
+  artifactKey: Guid(e7eb8e4a87aebf541b78dd934ebcd754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-7.exr using Guid(e7eb8e4a87aebf541b78dd934ebcd754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b16a5a59321c86c9703f23a67b7a91') in 0.030067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-10.exr
+  artifactKey: Guid(a4bfbebd0bc4ac246b9e62cd7fa05ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-10.exr using Guid(a4bfbebd0bc4ac246b9e62cd7fa05ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd9f9edcd67cfa45b60d9b4e042f578') in 0.029983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_Modules_Showcase/ReflectionProbe-0.exr
+  artifactKey: Guid(071205f51a61836439bef0e78bf07a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_Modules_Showcase/ReflectionProbe-0.exr using Guid(071205f51a61836439bef0e78bf07a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c29b3da934efe4dbe7a54651ed752b6') in 0.024551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-5.exr
+  artifactKey: Guid(fadc6fbdc407cde4ba7226800ad268af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-5.exr using Guid(fadc6fbdc407cde4ba7226800ad268af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1397ffb1199300404d1093e934b5caee') in 0.027851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-9.exr
+  artifactKey: Guid(31bc20e68a3f8e349a08831db0e58489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-9.exr using Guid(31bc20e68a3f8e349a08831db0e58489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedbaec414b840433ea4742cd40d2d4f') in 0.028569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-3.exr
+  artifactKey: Guid(38a130b2f01dae44f989553e6b336071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-3.exr using Guid(38a130b2f01dae44f989553e6b336071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2900b24381a7a13c17bc00af2036f973') in 0.029621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-6.exr
+  artifactKey: Guid(cb74c9c4c3d8e7241bd6efa099ea4e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-6.exr using Guid(cb74c9c4c3d8e7241bd6efa099ea4e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791e6761974e7637d9bfd3f96b959507') in 0.029610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-4.exr
+  artifactKey: Guid(c62e708ab2316fe479463d1e683af5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-4.exr using Guid(c62e708ab2316fe479463d1e683af5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0241b3df87a707b880aa461c9cd4cd21') in 0.029482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-2.exr
+  artifactKey: Guid(b80ac312c9a55b141aaa6317d1f34466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-2.exr using Guid(b80ac312c9a55b141aaa6317d1f34466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567359042cd332456a05f305495ecc6e') in 0.036981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-8.exr
+  artifactKey: Guid(b19f6022a132c424593a8a0d2e2b7c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-8.exr using Guid(b19f6022a132c424593a8a0d2e2b7c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c8013ed423896de1fffaba7321130d') in 0.028821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-2.exr
+  artifactKey: Guid(dfa5d7ade46163d4e8ff8d609fb85ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-2.exr using Guid(dfa5d7ade46163d4e8ff8d609fb85ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d310473222d329b0b39872783a6667') in 0.028986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-5.exr
+  artifactKey: Guid(528855f364445fe4d8e6c29f9ccd6ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-5.exr using Guid(528855f364445fe4d8e6c29f9ccd6ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee9c370a9825cf28a31c9bb8f12fd36') in 0.045504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-8.exr
+  artifactKey: Guid(ff5d9838d91100448ab8e9185d007586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-8.exr using Guid(ff5d9838d91100448ab8e9185d007586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117a1ffbbf58e7c00d162aa88a923fb5') in 0.028709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-6.exr
+  artifactKey: Guid(f36852e8083a00044bd32617c8589904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-6.exr using Guid(f36852e8083a00044bd32617c8589904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081b8c526adc730ceaa7af5034ffba5d') in 0.028177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_Showcase/ReflectionProbe-1.exr
+  artifactKey: Guid(a588299997a7979479c5bd7d0b0f0dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_Showcase/ReflectionProbe-1.exr using Guid(a588299997a7979479c5bd7d0b0f0dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c0a6731fc9d7a37eda1ceb6189680f') in 0.023635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-0.exr
+  artifactKey: Guid(b16535d674628fc42bbd09ce38f8ab5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-0.exr using Guid(b16535d674628fc42bbd09ce38f8ab5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48b533912c964e72c544937dc515a0f') in 0.029145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-3.exr
+  artifactKey: Guid(5edfcd7944cfcf9418f1c2d2764a4941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-3.exr using Guid(5edfcd7944cfcf9418f1c2d2764a4941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d5aed6f8c377c5fc9e3c2143875862') in 0.030586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-4.exr
+  artifactKey: Guid(c5b7db93e0ce76f45a8413c2f759bcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-4.exr using Guid(c5b7db93e0ce76f45a8413c2f759bcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958f950dd54396f59e25556913dd812a') in 0.029172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-7.exr
+  artifactKey: Guid(126733afdee0fe143b2d77dfdd55160c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-7.exr using Guid(126733afdee0fe143b2d77dfdd55160c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbca7478f10d76ae3bcd6284ce8f5fbd') in 0.027993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-7.mat
+  artifactKey: Guid(abf2d4aa0c0e1354791afe97fe437d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-7.mat using Guid(abf2d4aa0c0e1354791afe97fe437d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1366320287120f23ec1c915b1b7c24e') in 0.025435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-9.mat
+  artifactKey: Guid(76b9657c7c8f4c24282503aa0a713fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-9.mat using Guid(76b9657c7c8f4c24282503aa0a713fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da9c756862c1302663553de37a271a7') in 0.025401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_Showcase/ReflectionProbe-0.exr
+  artifactKey: Guid(5d77f65dec21384468e521ddd37dd6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_Showcase/ReflectionProbe-0.exr using Guid(5d77f65dec21384468e521ddd37dd6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202f3e026e15e00cef5d1b4e4b338973') in 0.024483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-9.exr
+  artifactKey: Guid(feccf937946384247bb1df08739fffa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-9.exr using Guid(feccf937946384247bb1df08739fffa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4175a806b796703bcf6e169819b30238') in 0.027460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-10.exr
+  artifactKey: Guid(ab2d23bf479930d4793e993052c31b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-10.exr using Guid(ab2d23bf479930d4793e993052c31b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbe5c86da30028e2b05940298b381d1') in 0.028836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.211516 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-11.exr
+  artifactKey: Guid(1f620a47ddd04c04e8c617c7731506fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/Bonus_ModularInteriors/ReflectionProbe-11.exr using Guid(1f620a47ddd04c04e8c617c7731506fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c7965097393ffe5b0cd1d8715953a8') in 0.025473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-14.exr
+  artifactKey: Guid(a504154c531c52341a3fd409fda5ac5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-14.exr using Guid(a504154c531c52341a3fd409fda5ac5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b29541a79162d88c2399b2233be42c') in 0.032125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-11.exr
+  artifactKey: Guid(1016d916620986542806d53432635b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-11.exr using Guid(1016d916620986542806d53432635b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5930a46ab05629ec7862d144e8eb62af') in 0.027555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-16.exr
+  artifactKey: Guid(477a2965092a2e942b1a9b0cb82c2267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-16.exr using Guid(477a2965092a2e942b1a9b0cb82c2267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11087033879599f28f1d8bc29280ba05') in 0.033370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-17.mat
+  artifactKey: Guid(4ff83d1d72db95f48b88d3082d11bd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-17.mat using Guid(4ff83d1d72db95f48b88d3082d11bd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66dc7083e243d720f2bf3064322cee7') in 0.025579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-17.exr
+  artifactKey: Guid(99f8d29c182da234e90c96a2edcfbfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-17.exr using Guid(99f8d29c182da234e90c96a2edcfbfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab70781d7c0ff74c9c9234fbaa97a256') in 0.029199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-18.mat
+  artifactKey: Guid(90c1628bd6af57e438fe1fecf65f8758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-18.mat using Guid(90c1628bd6af57e438fe1fecf65f8758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2fb7d3a1e5d1f316541b72f3638f92') in 0.024947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-16.exr
+  artifactKey: Guid(ceaf4999f5ad25e428c40e0ff0fa2220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-16.exr using Guid(ceaf4999f5ad25e428c40e0ff0fa2220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1810f23f239c96cd86655d146e594d9b') in 0.029372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-19.exr
+  artifactKey: Guid(c66258eb0e1718e46a82c1846aec5e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-19.exr using Guid(c66258eb0e1718e46a82c1846aec5e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fe9276ee8b9538c723685732756831') in 0.027888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-22.exr
+  artifactKey: Guid(9abf259c3f142974e88549642010c7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-22.exr using Guid(9abf259c3f142974e88549642010c7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df688c1ffebf055456b98948eb26cec') in 0.027863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-21.exr
+  artifactKey: Guid(f0edf42f3ad46a841898a44401915e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-21.exr using Guid(f0edf42f3ad46a841898a44401915e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f7c9d454aa239a6bf22fb75224c786') in 0.026858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-19.mat
+  artifactKey: Guid(65177e790cb4a6945a546ee63d2ecca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-19.mat using Guid(65177e790cb4a6945a546ee63d2ecca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a757a865a846215e696b2bef6460ea') in 0.026334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-20.exr
+  artifactKey: Guid(b0c6dc288d51e8d4e8b42275f8430b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-20.exr using Guid(b0c6dc288d51e8d4e8b42275f8430b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70c74a7de5a89f9f6a7d8a714e1f9ba') in 0.028934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-21.exr
+  artifactKey: Guid(d49833e3c1abcaa46af3f4bdec13836a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-21.exr using Guid(d49833e3c1abcaa46af3f4bdec13836a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368fcc25770f3b23606248de2dc82a3a') in 0.028635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-18.exr
+  artifactKey: Guid(8d0d9a2fa91b5c040954762886f4271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-18.exr using Guid(8d0d9a2fa91b5c040954762886f4271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abf6ee4dc63b4c3b9d6f1ddeccbb26b') in 0.028650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-22.mat
+  artifactKey: Guid(f381f006759cb4141b0991dae65b3be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-22.mat using Guid(f381f006759cb4141b0991dae65b3be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c259d211592dd4465151d2416fd566a3') in 0.023857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-15.exr
+  artifactKey: Guid(2bd4ca10048ea694e8d338192491900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-15.exr using Guid(2bd4ca10048ea694e8d338192491900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516fd50c8c657edc867fecf5c4e0a969') in 0.031172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-17.exr
+  artifactKey: Guid(b34eb0464613ef546937b04046ed0aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-17.exr using Guid(b34eb0464613ef546937b04046ed0aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22d281d45066c69244d6d2d3677464c') in 0.029260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-16.mat
+  artifactKey: Guid(b911d05bbc299d148a0fc155f1a1d95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-16.mat using Guid(b911d05bbc299d148a0fc155f1a1d95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a46756f94d23beaa7c324218124f61') in 0.024745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-19.exr
+  artifactKey: Guid(ac64476fb095cfb4f9f49fa4fcbfde7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-19.exr using Guid(ac64476fb095cfb4f9f49fa4fcbfde7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6d95f3b3abbc503a8761686b89ddcd') in 0.028067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-13.exr
+  artifactKey: Guid(326a12b82fc3c7643af736c82dcf43af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-13.exr using Guid(326a12b82fc3c7643af736c82dcf43af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50848394a404829e4b895d4d675b02d8') in 0.027988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-18.exr
+  artifactKey: Guid(457ff6d13166cd8459554940ccd03742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-18.exr using Guid(457ff6d13166cd8459554940ccd03742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ab268658bf63a35bd02f8b8d96ff34') in 0.028767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-20.exr
+  artifactKey: Guid(f8e922386c4103142b1562130c6a7a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-20.exr using Guid(f8e922386c4103142b1562130c6a7a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06e7dd4051c10367d01ebc7410fb2a7') in 0.028138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-12.exr
+  artifactKey: Guid(5bd2507293a65f642b5636dbd789a8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-12.exr using Guid(5bd2507293a65f642b5636dbd789a8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a26b9ea5d22b836cfde33e1258f55c7') in 0.029955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-21.mat
+  artifactKey: Guid(7df537cda83d9144095c1621f0c0ef63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hespital_EXAMPLE/Materials/ReflectionProbe-21.mat using Guid(7df537cda83d9144095c1621f0c0ef63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5580b15d89b6e400784271e38052947e') in 0.025960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-23.exr
+  artifactKey: Guid(89b75e9cf48c6c646bef85afe1273287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-23.exr using Guid(89b75e9cf48c6c646bef85afe1273287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f30a842eb89ad07b349a4ab5785107c') in 0.028910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-28.exr
+  artifactKey: Guid(13d38dee7a2d5924c957d975cb6ce24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-28.exr using Guid(13d38dee7a2d5924c957d975cb6ce24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398732336a9640d15101faabdf026311') in 0.028393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-29.exr
+  artifactKey: Guid(8807eab24c7348b4bb1531a13d21d22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-29.exr using Guid(8807eab24c7348b4bb1531a13d21d22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d5cf87d35c1bdbdd8016474ff153bd') in 0.027118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-22.exr
+  artifactKey: Guid(0cfb3751b3b40f641a6c39480b1e2dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-22.exr using Guid(0cfb3751b3b40f641a6c39480b1e2dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f471385da100ae6bc76a62828086d3') in 0.026791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-26.exr
+  artifactKey: Guid(90f500cfa3d44964988594a59e50cb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-26.exr using Guid(90f500cfa3d44964988594a59e50cb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74e5a959e3239f2ddb4fc4c88111a3f') in 0.028112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-24.exr
+  artifactKey: Guid(8b53a512472fe504990ad9b2aff50cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-24.exr using Guid(8b53a512472fe504990ad9b2aff50cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd46e765e7553c195afe27c09873c38') in 0.028889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-24.exr
+  artifactKey: Guid(d2611e5334d09ce42bfa478126055643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-24.exr using Guid(d2611e5334d09ce42bfa478126055643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e0a8f736b39fa8facc78a80425ed99') in 0.028925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-27.exr
+  artifactKey: Guid(0de3fc6aea0aa12419f28d863b0acb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-27.exr using Guid(0de3fc6aea0aa12419f28d863b0acb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a2c9e29f88ed22c1393fc6e5504ed8') in 0.029553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-26.exr
+  artifactKey: Guid(cf0192d5442b8c94581c5ebe29f8cc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-26.exr using Guid(cf0192d5442b8c94581c5ebe29f8cc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b90b7c6af62905ebabb2f46339c1573') in 0.028360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-23.exr
+  artifactKey: Guid(e590a5b37b58e1c45a5c19ea95ab64c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-23.exr using Guid(e590a5b37b58e1c45a5c19ea95ab64c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ae247f3a7ccbbbf00ab1b0c13aafdc') in 0.027883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-27.exr
+  artifactKey: Guid(d6596f88ab5ca50468960191d82d4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-27.exr using Guid(d6596f88ab5ca50468960191d82d4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36609cda1fa5db051cadfe582d7bb1ff') in 0.028064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-28.exr
+  artifactKey: Guid(45317a930b055ac4890aecf4c3957f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-28.exr using Guid(45317a930b055ac4890aecf4c3957f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0defe46c41fe6b24ddec4986beb59650') in 0.027810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-30.exr
+  artifactKey: Guid(6fb5c1b0c25804e41a1f6c4ec0a91046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-30.exr using Guid(6fb5c1b0c25804e41a1f6c4ec0a91046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4bb88a9642030af25c4f5a25415456') in 0.030689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-30.exr
+  artifactKey: Guid(d07f5657fbfaea842ab1210a87ef764c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-30.exr using Guid(d07f5657fbfaea842ab1210a87ef764c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a56fa18a77004c218129e6af4bbd8d') in 0.026939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-33.exr
+  artifactKey: Guid(75627405bed00c9449c852052c2129cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-33.exr using Guid(75627405bed00c9449c852052c2129cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e73d2d31ad1c2f5168f5b06ff0fe5eb') in 0.024113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-32.exr
+  artifactKey: Guid(f710cc9b734ac5e47b39a87eff155ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-32.exr using Guid(f710cc9b734ac5e47b39a87eff155ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb96d540ce79854ec33eb8f9de96e08') in 0.028241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-29.exr
+  artifactKey: Guid(47b23c379b0c3ed4e9bc46cf8eb7e3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-29.exr using Guid(47b23c379b0c3ed4e9bc46cf8eb7e3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dbf21e0defba8a0bbc2aaa8ab65ba3') in 0.028965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-31.exr
+  artifactKey: Guid(25860880bc41cce4fb9ba8c7b40939d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-31.exr using Guid(25860880bc41cce4fb9ba8c7b40939d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff216000075b52fe01976f793f84390d') in 0.028378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-32.exr
+  artifactKey: Guid(896e389f7944b3c4c88c28d41a84a8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-32.exr using Guid(896e389f7944b3c4c88c28d41a84a8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacd7c45a955dbf805b34d70c7b571fd') in 0.027196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-33.exr
+  artifactKey: Guid(9c74c420eca73d94e8a1ee21579ea1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-33.exr using Guid(9c74c420eca73d94e8a1ee21579ea1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4cb0e03b46566136987d0dd7206897') in 0.024295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-25.exr
+  artifactKey: Guid(510f0dbb8191bf34ba9365b630d4a093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-25.exr using Guid(510f0dbb8191bf34ba9365b630d4a093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504a6b56ebe6680154250bcb0fdd5bb8') in 0.029000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-31.exr
+  artifactKey: Guid(37fc10c37ddad084ab9eaf3b0817ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Day/ReflectionProbe-31.exr using Guid(37fc10c37ddad084ab9eaf3b0817ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16fd0954302e184875c0f1b789cb958') in 0.029231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-25.exr
+  artifactKey: Guid(52f80409ccd318c46b2b9800fda64ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/ReflectionProbe-25.exr using Guid(52f80409ccd318c46b2b9800fda64ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd732e015ae461c05beb95ea5c1bc657a') in 0.029334 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001688 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\C# Uni\UnityStuff\Horror\HorrorGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (998ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (804ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1581 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.5 MB.
+System memory in use after: 165.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2120.
+Total: 2.632400 ms (FindLiveObjects: 0.177300 ms CreateObjectMapping: 0.082300 ms MarkObjects: 2.305900 ms  DeleteObjects: 0.066100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.856377 seconds.
+  path: Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/Materials/ReflectionProbe-16.mat
+  artifactKey: Guid(a6d3008ec6b925f46af386ddf0c6e4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ_ResidentialHouse/DemoScene/DemoScene_BakedSetup_Night/Materials/ReflectionProbe-16.mat using Guid(a6d3008ec6b925f46af386ddf0c6e4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8493bd82ed70be2a67acaf6d0fa0e775') in 0.062289 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
