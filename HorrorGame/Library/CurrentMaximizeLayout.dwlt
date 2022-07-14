@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 471}
   m_MaxSize: {x: 14001, y: 14021}
   vertical: 0
-  controlID: 178
+  controlID: 203
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 471}
   m_MaxSize: {x: 14001, y: 14021}
   vertical: 1
-  controlID: 179
+  controlID: 204
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 221}
   m_MaxSize: {x: 12003, y: 4021}
   vertical: 0
-  controlID: 79
+  controlID: 205
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -217,10 +217,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1440}
+      scrollPos: {x: 0, y: 3495}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5efbffff9c3e0000fa3e00004e400000ac450000ba45000076470000
+      m_ExpandedIDs: 66fbffff623e0000ea3e000018400000144500009045000068470000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -306,9 +306,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -69.424515, y: 3.0086923, z: 50.980293}
+    m_Target: {x: -18.657715, y: 1.6541445, z: 10.985915}
     speed: 2
-    m_Value: {x: -69.424515, y: 3.0086923, z: 50.980293}
+    m_Value: {x: -18.657715, y: 1.6541445, z: 10.985915}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -355,13 +355,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.027371453, y: -0.5249189, z: 0.0156064, w: -0.8507038}
+    m_Target: {x: -0.00496725, y: -0.70371675, z: 0.0034989833, w: -0.7106252}
     speed: 2
-    m_Value: {x: -0.02736831, y: -0.52485865, z: 0.015604609, w: -0.85060614}
+    m_Value: {x: -0.0049666483, y: -0.7036315, z: 0.0034985596, w: -0.7105391}
   m_Size:
-    m_Target: 2.8992648
+    m_Target: 23.729397
     speed: 2
-    m_Value: 2.8992648
+    m_Value: 23.729397
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -444,7 +444,7 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 18654
+  m_LastInspectedObjectInstanceID: 16474
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_MinSize: {x: 431, y: 250}
   m_MaxSize: {x: 14001, y: 10000}
   vertical: 0
-  controlID: 180
+  controlID: 70
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -559,7 +559,7 @@ MonoBehaviour:
     height: 251
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: probe
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -573,7 +573,7 @@ MonoBehaviour:
     m_Folders:
     - Assets/HorrorEnvironment_Hospital/Meshes
     m_Globs: []
-    m_OriginalText: probe
+    m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
@@ -584,8 +584,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 73}
-    m_SelectedIDs: 484e0000
-    m_LastClickedID: 20040
+    m_SelectedIDs: f44d0000
+    m_LastClickedID: 19956
     m_ExpandedIDs: 00000000de4d0000e04d0000e24d0000e44d0000e64d0000e84d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -639,9 +639,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: de480000
-    m_LastClickedInstanceID: 18654
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 5a400000
+    m_LastClickedInstanceID: 16474
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000586000000c7100009270000048710000c6530000be5300007265000096620000906200006a76000040730000506d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -666,7 +666,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 363}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
