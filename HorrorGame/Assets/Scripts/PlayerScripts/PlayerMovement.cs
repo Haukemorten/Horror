@@ -43,6 +43,10 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode JumpKey = KeyCode.Space;
     public KeyCode SprintKey = KeyCode.LeftShift;
     public KeyCode CrouchKey = KeyCode.C;
+
+    [Header("SaveLoad")]
+    PlayerPositionSave playerPositionData;
+
     public enum MovementState
     {
         Walking,
@@ -58,6 +62,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float maxSlopeAngle;
     private bool SlopeJump;
 
+
+    private void Awake()
+    {
+        playerPositionData = FindObjectOfType<PlayerPositionSave>();
+        playerPositionData.PlayerPositionLoad();
+    }
 
     // Start is called before the first frame update
     void Start()
