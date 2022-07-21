@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -118,10 +118,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 471}
+  m_MaxSize: {x: 14001, y: 14021}
   vertical: 0
-  controlID: 175007
+  controlID: 2401
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,10 +143,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 471}
+  m_MaxSize: {x: 14001, y: 14021}
   vertical: 1
-  controlID: 175008
+  controlID: 2402
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 658
-  m_MinSize: {x: 677, y: 221}
-  m_MaxSize: {x: 12002, y: 4021}
+  m_MinSize: {x: 678, y: 221}
+  m_MaxSize: {x: 12003, y: 4021}
   vertical: 0
-  controlID: 175009
+  controlID: 2403
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,10 +274,10 @@ MonoBehaviour:
     y: 658
     width: 1920
     height: 289
-  m_MinSize: {x: 432, y: 271}
-  m_MaxSize: {x: 14002, y: 10021}
+  m_MinSize: {x: 431, y: 250}
+  m_MaxSize: {x: 14001, y: 10000}
   vertical: 0
-  controlID: 175015
+  controlID: 2291
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -447,10 +447,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 32}
-      m_SelectedIDs: 1e00efff
-      m_LastClickedID: -1114082
-      m_ExpandedIDs: 1e99f0ffbc9ff0fff6cdf1ffead0f1ff5007f2ffc09ef5fff29ff5ff8e09f6ff94e2f8ffd859fbff0666fbffb810fdff02cefeff202cffff18edffff44edffffa2edffffd4edffffdeedffff5eeeffff8eeeffffbceefffffeefffff26f0ffffeaf0ffff50f2ffff60f2ffff10f3ffff14f3ffff1cf3ffff20f3ffff28f3ffff2cf3ffff34f3ffff38f3ffff40f3ffff44f3ffff48f3ffff4cf3ffff50f3ffff68f3ffff6cf3ffff74f3ffff78f3ffff80f3ffff84f3ffff8cf3ffff90f3ffff98f3ffff9cf3ffffa4f3ffffa8f3ffffacf3ffffb0f3ffffb4f3ffffb8f3ffffbcf3ffffc0f3ffffc8f3ffffccf3ffffd0f3ffffd8f3ffffdcf3ffffe0f3ffffe4f3ffffe8f3ffffb0f4ffff18f5ffff28f5ffff94f5fffffcf5ffffe6f6ffff62f7ffff76f7ffff80f7ffffd2f8ffff16f9ffffbaf9ffff94faffff66fbffffa03e00001c3f00004e3f0000523f000048400000da400000124300001e430000aa440000fa44000008470000b0470000d6470000bc480000244900000e4a0000b04b00003e4c0000dc6d01002e710100ceb20100c6b30100e8b40100cab5010020bd01003cbe010018bf010046bf0100a2c1010006c201005cc50100546e0200c4780200bc7a0200a4880200a4890200f48a0200c28e02001693020024940200689502008a96020034980200029902006a990200
+      scrollPos: {x: 0, y: 2936}
+      m_SelectedIDs: f2470000
+      m_LastClickedID: 18418
+      m_ExpandedIDs: 66fbffffe03e0000a640000036410000fa4b0000204d0000dc4e0000b04f00001c500000ea530000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -510,9 +510,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -43.5388, y: 12.090955, z: 29.94564}
+    m_Target: {x: -65.65476, y: 18.30115, z: 44.614197}
     speed: 2
-    m_Value: {x: -43.5388, y: 12.090955, z: 29.94564}
+    m_Value: {x: -65.65476, y: 18.30115, z: 44.614197}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -559,13 +559,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.024317991, y: -0.62308913, z: 0.013765144, w: -0.7825029}
+    m_Target: {x: -0.010757335, y: 0.6130962, z: -0.011580831, w: -0.7908646}
     speed: 2
-    m_Value: {x: -0.024281152, y: -0.62384695, z: 0.013792424, w: -0.78104746}
+    m_Value: {x: -0.011932628, y: 0.6125871, z: -0.01249229, w: -0.7902143}
   m_Size:
-    m_Target: 1.8265527
+    m_Target: 10.057008
     speed: 2
-    m_Value: 1.8265527
+    m_Value: 9.623931
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -683,7 +683,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 620
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -745,7 +745,7 @@ MonoBehaviour:
     height: 268
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: probe
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -757,22 +757,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/HorrorEnvironment_Hospital/Prefabs/Doors
+    - Assets/HorrorEnvironment_Hospital
     m_Globs: []
-    m_OriginalText: 
+    m_OriginalText: probe
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/HorrorEnvironment_Hospital/Prefabs/Doors
+  - Assets/HorrorEnvironment_Hospital
   m_LastFoldersGridSize: -1
   m_LastProjectPath: G:\C# Uni\UnityStuff\Horror\HorrorGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 8}
-    m_SelectedIDs: ce560000
-    m_LastClickedID: 22222
-    m_ExpandedIDs: 0000000016530000185300001a530000205300008653000000ca9a3b
+    m_SelectedIDs: 145d0000
+    m_LastClickedID: 23828
+    m_ExpandedIDs: 00000000ac5c0000ae5c0000b05c0000b25c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -800,7 +800,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000016530000185300001a5300001e530000205300008653000000ca9a3b
+    m_ExpandedIDs: 00000000ac5c0000ae5c0000b05c0000b25c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -852,7 +852,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 548}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
